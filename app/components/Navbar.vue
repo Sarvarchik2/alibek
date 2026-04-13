@@ -5,11 +5,17 @@ const isMenuOpen = ref(false)
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
+  if (isMenuOpen.value) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = ''
+  }
 }
 
 const selectLang = (code) => {
   setLocale(code)
   isMenuOpen.value = false
+  document.body.style.overflow = ''
 }
 </script>
 
@@ -54,9 +60,9 @@ const selectLang = (code) => {
     <Transition name="fade">
       <div v-if="isMenuOpen" class="mobile-menu">
         <div class="mobile-links">
-          <a href="#projects" class="massive-link" @click="isMenuOpen = false">{{ $t('nav.projects') }}</a>
-          <a href="#about" class="massive-link" @click="isMenuOpen = false">{{ $t('nav.about') }}</a>
-          <a href="#contact" class="massive-link" @click="isMenuOpen = false">{{ $t('nav.contact') }}</a>
+          <a href="#projects" class="massive-link" @click="toggleMenu">{{ $t('nav.projects') }}</a>
+          <a href="#about" class="massive-link" @click="toggleMenu">{{ $t('nav.about') }}</a>
+          <a href="#contact" class="massive-link" @click="toggleMenu">{{ $t('nav.contact') }}</a>
         </div>
         
         <div class="mobile-footer">
@@ -91,8 +97,8 @@ const selectLang = (code) => {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  z-index: 1000;
-  background: linear-gradient(to bottom, rgba(8, 8, 8, 0.8), transparent);
+  z-index: 10000;
+  background: linear-gradient(to bottom, rgba(8, 8, 8, 0.95), transparent);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border-color);
 }
@@ -163,7 +169,7 @@ const selectLang = (code) => {
   width: 30px;
   height: 20px;
   position: relative;
-  z-index: 1001;
+  z-index: 12000;
   cursor: pointer;
 }
 
@@ -190,8 +196,8 @@ const selectLang = (code) => {
 .mobile-menu {
   position: fixed;
   inset: 0;
-  background: var(--bg-color);
-  z-index: 1000;
+  background-color: #080808;
+  z-index: 11000;
   padding: 8rem 2rem 4rem;
   display: flex;
   flex-direction: column;
