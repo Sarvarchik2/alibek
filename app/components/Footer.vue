@@ -68,7 +68,7 @@
     padding: 60px 0 30px;
   }
   .massive-link {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
   }
   .social-links {
     flex-direction: column;

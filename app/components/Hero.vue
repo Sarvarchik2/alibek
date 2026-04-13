@@ -152,7 +152,7 @@ onMounted(() => {
     padding: 1.5rem 1rem;
   }
   .hero-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .hud-element p {
     font-size: 1.1rem;
