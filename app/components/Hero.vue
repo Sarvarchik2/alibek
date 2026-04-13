@@ -82,7 +82,7 @@ onMounted(() => {
 }
 
 .hero-content h1 {
-  font-size: clamp(3rem, 10vw, 8rem);
+  font-size: 6rem;
   line-height: 0.9;
   letter-spacing: -0.02em;
 }
