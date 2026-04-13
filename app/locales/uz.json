@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "projects": "Loyihalar",
+    "about": "Men haqimda",
+    "contact": "Aloqa",
+    "available": "LOYIHALAR UCHUN TAYYORMAN"
+  },
+  "hero": {
+    "role": "YETAKCHI UI/UX DIZAYNER",
+    "title_line1": "RAQAMLI",
+    "title_line2": "MUHIT",
+    "title_line3": "YARATAMAN",
+    "location": "MANZIL",
+    "city": "TOSHKENT, O'ZBEKISTON",
+    "experience": "TAJRIBA",
+    "stats": "5+ YIL / 100+ LOYIHA",
+    "explore": "ISHLARNI KO'RISH"
+  },
+  "projects": {
+    "header": "TANLANGAN ISHLAR / LOYIHALAR",
+    "vicasa": {
+      "category": "KO'CHMAS MULK PLATFORMASI",
+      "description": "O'zbekistondagi xaridorlar va quruvchilarni bog'laydigan premium ko'chmas mulk ekotizimi."
+    },
+    "storely": {
+      "category": "E-COMMERCE SAAS",
+      "description": "Kichik va o'rta biznes uchun onlayn-do'konlarni ishga tushirish uchun kengaytiriladigan yechim."
+    },
+    "hadj": {
+      "category": "SAYYOHLIK XIZMATI",
+      "description": "Ziyoratchilar uchun sayohatlarni har tomonlama boshqarish, ishonchlilik va foydalanish qulayligiga e'tibor qaratish."
+    },
+    "abiturient": {
+      "category": "TA'LIM TEXNOLOGIYASI",
+      "description": "Talabalarga oliy o'quv yurtlariga kirish imtihonlariga oson tayyorgarlik ko'rish imkoniyatini berish."
+    },
+    "view_case": "LOYIHANI KO'RISH"
+  },
+  "about": {
+    "label": "MEN HAQIMDA",
+    "text": "SALOM, MEN {name}. DIZAYN VA MUHIT UYG'UNLIGI ORQALI MUKAMMAL RAQAMLI TAJRIBALARNI YARATISHGA INPTILGAN KREATIV UI/UX DIZAYNERMAN.",
+    "stack": "ASOSIY TEXNOLOGIYALAR",
+    "status": "STATUS:",
+    "status_val": "INNOVATSIYALARGA TAYYORMAN",
+    "timezone": "VAQT MINTAQASI:",
+    "timezone_val": "UTC+5 (TOSHKENT)",
+    "focus": "FOKUS:",
+    "focus_val": "MAHSULOT DIZAYNI VA INTERAKTIVLIK"
+  },
+  "footer": {
+    "label": "BOG'LANISH",
+    "copyright": "© 2024 ALIBEK ABDUSAMADOV",
+    "crafted": "NUXT + GSAP YORDAMIDA YARATILGAN"
+  },
+  "preloader": "MUIT_YARATILMOQDA..."
+}

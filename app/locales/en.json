@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "available": "AVAILABLE FOR PROJECTS"
+  },
+  "hero": {
+    "role": "SENIOR UI/UX DESIGNER",
+    "title_line1": "CREATING",
+    "title_line2": "DIGITAL",
+    "title_line3": "VIBES",
+    "location": "LOCATION",
+    "city": "TASHKENT, UZBEKISTAN",
+    "experience": "EXPERIENCE",
+    "stats": "5+ YEARS / 100+ PROJECTS",
+    "explore": "EXPLORE WORK"
+  },
+  "projects": {
+    "header": "SELECTED WORK / PROJECTS",
+    "vicasa": {
+      "category": "REAL ESTATE PLATFORM",
+      "description": "A premium real estate ecosystem connecting buyers and builders in Uzbekistan."
+    },
+    "storely": {
+      "category": "E-COMMERCE SAAS",
+      "description": "Scalable solution for small to medium businesses to launch their online stores."
+    },
+    "hadj": {
+      "category": "TRAVEL SERVICE",
+      "description": "Comprehensive travel management for pilgrims, focusing on reliability and ease of use."
+    },
+    "abiturient": {
+      "category": "EDUCATION TECH",
+      "description": "Empowering students to prepare for university entrance exams with ease."
+    },
+    "view_case": "VIEW CASE STUDY"
+  },
+  "about": {
+    "label": "ABOUT ME",
+    "text": "HI, I'M {name}. A CREATIVE UI/UX DESIGNER DRIVEN BY THE PASSION TO BUILD SEAMLESS DIGITAL EXPERIENCES THROUGH THE HARMONY OF DESIGN AND VIBES.",
+    "stack": "CORE STACK",
+    "status": "STATUS:",
+    "status_val": "READY TO INNOVATE",
+    "timezone": "TIMEZONE:",
+    "timezone_val": "UTC+5 (TASHKENT)",
+    "focus": "FOCUS:",
+    "focus_val": "PRODUCT DESIGN & INTERACTION"
+  },
+  "footer": {
+    "label": "GET IN TOUCH",
+    "copyright": "© 2024 ALIBEK ABDUSAMADOV",
+    "crafted": "CRAFTED WITH NUXT + GSAP"
+  },
+  "preloader": "INITIALIZING_VIBE..."
+}
