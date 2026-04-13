@@ -113,5 +113,8 @@
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+  .hud-border {
+    padding: 1.5rem;
+  }
 }
 </style>

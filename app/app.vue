@@ -115,4 +115,15 @@ onMounted(() => {
   position: relative;
   min-height: 100vh;
 }
+@media (hover: none) and (pointer: coarse) {
+  .cursor-dot, .cursor-follower {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  * {
+    cursor: auto !important;
+  }
+}
 </style>
