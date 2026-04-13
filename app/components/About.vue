@@ -102,8 +102,16 @@
 }
 
 @media (max-width: 992px) {
+  .about {
+    padding: 80px 0;
+  }
   .about-grid {
     grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .large-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 }
 </style>

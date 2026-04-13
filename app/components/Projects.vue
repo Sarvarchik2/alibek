@@ -148,6 +148,13 @@ const projectKeys = [
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .project-info h3 {
+    font-size: 2rem;
+  }
+  .section-header h2 {
+    font-size: 1rem;
   }
 }
 </style>

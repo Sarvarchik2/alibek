@@ -131,8 +131,25 @@ onMounted(() => {
 }
 
 @media (max-width: 992px) {
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
   .hero-container {
     grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .hero-content h1 {
+    font-size: clamp(3rem, 15vw, 5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    padding: 2rem 1.5rem;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
   }
 }
 </style>

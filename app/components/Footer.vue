@@ -64,9 +64,20 @@
 }
 
 @media (max-width: 768px) {
-  .footer-bottom {
+  .footer {
+    padding: 60px 0 30px;
+  }
+  .massive-link {
+    font-size: 2.5rem;
+  }
+  .social-links {
     flex-direction: column;
     gap: 1rem;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
   }
 }
 </style>
