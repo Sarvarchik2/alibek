@@ -98,8 +98,7 @@ const selectLang = (code) => {
   align-items: center;
   padding: 1.5rem 2rem;
   z-index: 10000;
-  background: linear-gradient(to bottom, rgba(8, 8, 8, 0.95), transparent);
-  backdrop-filter: blur(10px);
+  background-color: #080808; /* Solid background */
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -108,7 +107,7 @@ const selectLang = (code) => {
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 3rem; /* More space */
 }
 
 .nav-right {
@@ -154,7 +153,8 @@ const selectLang = (code) => {
 }
 
 .pulse-dot {
-  width: 8px;
+  width: 100%;
+  max-width: 8px;
   height: 8px;
   background-color: var(--accent-color);
   border-radius: 50%;
@@ -169,7 +169,7 @@ const selectLang = (code) => {
   width: 30px;
   height: 20px;
   position: relative;
-  z-index: 12000;
+  z-index: 20000;
   cursor: pointer;
 }
 
@@ -195,13 +195,14 @@ const selectLang = (code) => {
 
 .mobile-menu {
   position: fixed;
-  inset: 0;
-  background-color: #080808;
-  z-index: 11000;
+  inset: 0 !important;
+  background-color: #080808 !important; /* Force solid color */
+  z-index: 15000 !important;
   padding: 8rem 2rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  opacity: 1 !important;
 }
 
 .mobile-links {
@@ -248,14 +249,17 @@ const selectLang = (code) => {
 
 /* Transitions */
 .fade-enter-active, .fade-leave-active {
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease;
 }
 .fade-enter-from, .fade-leave-to {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 @media (max-width: 992px) {
   .desktop-only { display: none; }
   .mobile-only { display: block; }
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
 }
 </style>
